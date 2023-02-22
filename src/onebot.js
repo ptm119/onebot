@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { Client, Collection, Events, GatewayIntentBits } from "discord.js";
-import { token } from "../../config.json";
+import { token } from "../config.json";
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds]
